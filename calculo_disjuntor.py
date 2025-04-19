@@ -55,7 +55,7 @@ disjuntor_paralelo = soma_correntes * 1.25
 disjuntor_serie = corrente_serie * 1.25
 
 #Faz o resumo geral dos resultados obtidos
-if serie_paralelo == "serie":
+if serie_paralelo == "série":
     print("\nResumo Geral: ")
     print("------------------------------------------------------------------------")
     print(f"Número de aparelhos do circuito: {soma_aparelhos}")
