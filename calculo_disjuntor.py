@@ -50,7 +50,7 @@ soma_aparelhos = sum(aparelhos)
 #Calcula a corrente total do circuito caso ele seja em série
 corrente_serie = soma_potencias / tensao
 
-#Calcula a amperagem adequada do disjuntor necessitado para o circuito
+#Calcula a corrente adequada do disjuntor necessitado para o circuito
 disjuntor_paralelo = soma_correntes * 1.25
 disjuntor_serie = corrente_serie * 1.25
 
